@@ -6,9 +6,9 @@ function getKoOrTo(){
 
     let randomNum = Math.random();
 
-    if(randomNum < 3/5){
+    if(randomNum < 1/2){
         return "こ"
-    }else if(randomNum < 4/5){
+    }else if(randomNum < 3/4){
         return "と"
     }else{
         return "な"
