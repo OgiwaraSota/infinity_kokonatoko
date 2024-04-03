@@ -34,8 +34,8 @@ function displayText(count, delay){
     return intervalId; // タイマーIDを返す
 }
 
-const generateBtn = document.querySelector("#generate");
-const stopBtn = document.querySelector("#stop")
+const generateBtn = document.querySelector(".generate");
+const stopBtn = document.querySelector(".stop")
 
 generateBtn.addEventListener("click", () => {
     // 既存のタイマーをクリア
